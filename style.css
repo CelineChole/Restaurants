@@ -25,6 +25,10 @@ nav{
 	margin: 2em 1em 1em 1em;
 }
 
+nav:hover{
+	color: black;
+}
+
 .restauranttiles article{
 	/*display: inline-block;*/
 	/*margin:auto;*/
@@ -40,6 +44,7 @@ nav{
 	margin-bottom: 25px;
 }
 
+}
 /*Why it doesn't work*/
 .restaurant:hover{
 	border-color: ##f1f1f1;
@@ -48,7 +53,7 @@ nav{
 .carousel-inner img {
     /*-webkit-filter: grayscale(90%);*/
     /*filter: grayscale(90%);*/ /* make all photos black and white */ 
-    width: 80%; /* Set width to 100% */
+    width: 80%;
     margin: auto;
 }
 
@@ -61,3 +66,23 @@ nav{
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
+
+#googleMap{
+	margin-top: 2em;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
